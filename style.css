@@ -1,0 +1,55 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(img/mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ver {
+    margin-top: 15%;
+    display: flex;
+    font-size: 100px;
+    color: pink;
+    text-shadow: 0px 2px 10px black;
+    justify-content: center;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+    border: 5px solid pink;
+    border-radius: 15px;
+    text-align: center;
+    text-shadow: 0px 2px 10px black;
+    box-shadow: 0px 2px 10px black;
+}
+
+input {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: 5px solid pink;
+    border-radius: 15px;
+    text-shadow: 0px 2px 10px black;
+    box-shadow: 0px 2px 10px black
+}
+
+input::placeholder {
+    color: black;
+}
+
+.info {
+    color: pink;
+    font-size: 20px;
+    text-shadow: 0px 2px 10px black;
+}
